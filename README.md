@@ -1,7 +1,7 @@
 # LogFileReader
-[![Build status](https://ci.appveyor.com/api/projects/status/8rkfcmx5txm86ygx?svg=true)](https://ci.appveyor.com/project/peterschlosser/castle-pagereader)
+[![Build status](https://ci.appveyor.com/api/projects/status/8rkfcmx5txm86ygx?svg=true)](https://ci.appveyor.com/project)
 
-An ASP.NET Core MVC Web Application demonstrating the use of the [`StreamReverseReader`](/peterschlosser/Castle.PageReader/src/Castle.PageReader/Data/StreamReverseReader.cs) class to display lines of log and text files through the browser.  Buttons provide next and previous paging functions.
+An ASP.NET Core MVC Web Application demonstrating the use of the [`StreamReverseReader`](/src/Castle.PageReader/Data/StreamReverseReader.cs) class to display lines of log and text files through the browser.  Buttons provide next and previous paging functions.
 
 ## StreamReverseReader Class
   A text file [`StreamReader`](https://docs.microsoft.com/en-us/dotnet/api/system.io.streamreader?view=netcore-2.1) class reading content from end of file.
