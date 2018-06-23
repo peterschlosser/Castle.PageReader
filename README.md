@@ -1,7 +1,7 @@
 # LogFileReader
 [![Build status](https://ci.appveyor.com/api/projects/status/8rkfcmx5txm86ygx?svg=true)](https://ci.appveyor.com/project)
 
-An ASP.NET Core MVC Web Application demonstrating the use of the [`StreamReverseReader`](src/Castle.PageReader/Data/StreamReverseReader.cs) class to display lines of log and text files through the browser.  Buttons provide next and previous paging functions.
+An ASP.NET Core MVC Web Application demonstrating the use of the [`StreamReverseReader`](./src/Castle.PageReader/Data/StreamReverseReader.cs) class to display lines of log and text files through the browser.  Buttons provide next and previous paging functions.
 
 ## StreamReverseReader Class
   A text file [`StreamReader`](https://docs.microsoft.com/en-us/dotnet/api/system.io.streamreader?view=netcore-2.1) class reading content from end of file.
@@ -30,7 +30,7 @@ public class HomeController : Controller
     }
 }
 ```
-Using [logfile.txt](sample/LogFileReader/Logs/logfile.txt) as input, the result of `LastLinesExample()` looks something like:
+Using [logfile.txt](./sample/LogFileReader/Logs/logfile.txt) as input, the result of `LastLinesExample()` looks something like:
 ```
 0025 2018-05-02 16:21:52,449 DEBUG Lorem ipsum lastum linem.
 0024 2018-05-02 16:21:52,314 DEBUG Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
@@ -78,7 +78,7 @@ public class HomeController : Controller
 }
 ```
 
-Using [logfile.txt](sample/LogFileReader/Logs/logfile.txt) as input, the result of of `MiddleLinesExample()` looks something like:
+Using [logfile.txt](./sample/LogFileReader/Logs/logfile.txt) as input, the result of `MiddleLinesExample()` looks something like:
 ```
 Read position first line: 1377
 Read position after last line: 318
