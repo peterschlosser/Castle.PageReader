@@ -1,0 +1,30 @@
+@model IEnumerable<LogFileReader.Models.LogFileListModel>
+@using Castle.PageReader
+
+@{
+    ViewData["Title"] = "File List";
+}
+
+<h2>@ViewData["Title"]: @PageReader.Path</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Length)</th>
+            <th>&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Length)</td>
+                <td>
+                    @Html.ActionLink("Forward As Text", "Forward", new { id = item.Name }, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Backward As Log", "Reverse", new { id = item.Name }, new { @class = "btn btn-default" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Authors>Peter Schlosser</Authors>
+    <Company>Peter Schlosser dba Quiet Bay Networks</Company>
+    <Description>A text and log file page reader demonstration.  Implements classes providing random access to file content and forward and reverse reading directions.  Optimized for reading lines of content from log files with forweard and reverse paging functions for use in Web Applications.</Description>
+    <Copyright>Copyright (c) 2018 Peter Schlosser.  All rights reserved.</Copyright>
+    <PackageLicenseUrl>http://pschlosser.mit-license.org</PackageLicenseUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/peter-schlosser/nuget/master/castle.ico</PackageIconUrl>
+    <RepositoryUrl>https://github.com/peter-schlosser/Castle.FileLogger</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>aspnetcore;file-reader;log-reader</PackageTags>
+    <PackageReleaseNotes>Initial release of seasoned coding project.</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>

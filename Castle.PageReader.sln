@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ABB99F74-56D9-423F-B930-76294BEB4062}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{F20A5F17-111B-43F8-982C-2F240667CD61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogFileReader", "sample\LogFileReader\LogFileReader.csproj", "{B481BE47-2F90-458C-AD2E-D372D180899C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23EEE4A3-DCB7-457E-8D7A-55F5028CFD81} = {23EEE4A3-DCB7-457E-8D7A-55F5028CFD81}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Castle.PageReader", "src\Castle.PageReader\Castle.PageReader.csproj", "{23EEE4A3-DCB7-457E-8D7A-55F5028CFD81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C0FB171C-48E6-4455-BBA3-3877D32F71C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Castle.PageReader.Test", "test\Castle.PageReader.Test\Castle.PageReader.Test.csproj", "{BA7F3268-3B2D-4566-864F-8BDCB90731F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B481BE47-2F90-458C-AD2E-D372D180899C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B481BE47-2F90-458C-AD2E-D372D180899C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B481BE47-2F90-458C-AD2E-D372D180899C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B481BE47-2F90-458C-AD2E-D372D180899C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23EEE4A3-DCB7-457E-8D7A-55F5028CFD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23EEE4A3-DCB7-457E-8D7A-55F5028CFD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23EEE4A3-DCB7-457E-8D7A-55F5028CFD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23EEE4A3-DCB7-457E-8D7A-55F5028CFD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7F3268-3B2D-4566-864F-8BDCB90731F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7F3268-3B2D-4566-864F-8BDCB90731F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7F3268-3B2D-4566-864F-8BDCB90731F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7F3268-3B2D-4566-864F-8BDCB90731F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B481BE47-2F90-458C-AD2E-D372D180899C} = {F20A5F17-111B-43F8-982C-2F240667CD61}
+		{23EEE4A3-DCB7-457E-8D7A-55F5028CFD81} = {ABB99F74-56D9-423F-B930-76294BEB4062}
+		{BA7F3268-3B2D-4566-864F-8BDCB90731F7} = {C0FB171C-48E6-4455-BBA3-3877D32F71C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBA16C6A-C758-435A-AEA3-F0D6BF88FAC3}
+	EndGlobalSection
+EndGlobal
